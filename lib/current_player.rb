@@ -14,3 +14,11 @@ def turn_count(turn)
   move_count.length.to.i 
 end 
 
+def current_player(board)
+  if num % 2 == 0 
+    return "X" 
+  else 
+    return "O" 
+    puts "divisible by 2" 
+  end 
+end 
