@@ -1,18 +1,10 @@
-def turn_count(turn)
-  counter = l 
-  move_count = []
-  turn.each do |unit|
-    counter = 0 
-    if unit == "X" || unit == "O"
-      puts "spot taken"
-      move_count.push(1)
-    else 
-      puts "spot free"
-      counter += 1 
+def turn_count(board)
+  turn = 0  
+  board.each do |space|
+    if space == "X" || space == "O"
+      turn += 1 
     end 
   end 
-  move_count.length.to._i 
-end 
 
 def current_player(turn)
   if turn_count(turn) % == 0 
