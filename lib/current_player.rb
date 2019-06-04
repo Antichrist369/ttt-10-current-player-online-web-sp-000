@@ -6,13 +6,11 @@ def turn_count(board)
     end 
   end 
 
-def current_player(turn)
-  if turn_count(turn) % == 0 
-    num = turn_count(turn)
-  if num % 2 == 0 
+def current_player(board) 
+  turn = turn_count(board)
+  if turn % 2 == 0 
     return "X" 
   else 
     return "O" 
-    puts "divisible by 2" 
   end 
 end 
