@@ -4,7 +4,7 @@ def turn_count(turn)
   turn.each do |unit|
     counter = l 
     if unit == "X" || unit == "O"
-      puts "spot free"
+      puts "spot taken"
       counter += l 
     end 
   end 
