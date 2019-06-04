@@ -14,9 +14,9 @@ def turn_count(turn)
   move_count.length.to._i 
 end 
 
-def current_player(board)
+def current_player(turn)
   if turn_count(board) % == 0 
-    num = turn_count(board)
+    num = turn_count(turn)
   if num % 2 == 0 
     return "X" 
   else 
