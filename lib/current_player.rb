@@ -5,9 +5,12 @@ def turn_count(turn)
     counter = l 
     if unit == "X" || unit == "O"
       puts "spot taken"
-      counter += l 
+      move_count.push(1)
+    else 
+      puts "spot free"
+      counter += 1 
     end 
   end 
-  move_count.length.i 
+  move_count.length.to.i 
 end 
 
